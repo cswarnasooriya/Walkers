@@ -111,7 +111,7 @@ export const awards = [
 export const location = [
   {
     id: 1,
-    name: "Jerrsy, United State",
+    name: "Project 01",
     Villas: "12 Villas",
     Apartments: "10 Apartments",
     Offices: "07 Offices",
@@ -119,7 +119,7 @@ export const location = [
   },
   {
     id: 2,
-    name: "Jerrsy, United State",
+    name: "Project 02",
     Villas: "12 Villas",
     Apartments: "10 Apartments",
     Offices: "07 Offices",
@@ -127,7 +127,7 @@ export const location = [
   },
   {
     id: 3,
-    name: "Jerrsy, United State",
+    name: "project 03",
     Villas: "12 Villas",
     Apartments: "10 Apartments",
     Offices: "07 Offices",
@@ -135,7 +135,7 @@ export const location = [
   },
   {
     id: 4,
-    name: "Jerrsy, United State",
+    name: "project 04",
     Villas: "12 Villas",
     Apartments: "10 Apartments",
     Offices: "07 Offices",
@@ -143,7 +143,7 @@ export const location = [
   },
   {
     id: 5,
-    name: "Jerrsy, United State",
+    name: "Project 00",
     Villas: "12 Villas",
     Apartments: "10 Apartments",
     Offices: "07 Offices",
@@ -151,7 +151,7 @@ export const location = [
   },
   {
     id: 6,
-    name: "Jerrsy, United State",
+    name: "Project 00",
     Villas: "12 Villas",
     Apartments: "10 Apartments",
     Offices: "07 Offices",
