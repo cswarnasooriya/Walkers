@@ -1,38 +1,27 @@
-import React from "react"
-import Heading from "../../common/Heading"
-import "./hero.css"
+import React from "react";
+import Heading from "../../common/Heading";
+import "./hero.css";
+import video from '../../../../src/components/images/my.mp4';
 
 const Hero = () => {
   return (
     <>
       <section className='hero'>
-        <div className='container'>
-          <Heading title='Search Your Next Home ' subtitle='Find new & featured property located in your local city.' />
+        {/* Video background */}
+        <video className='background-video' autoPlay muted loop>
+          <source src={video} type='video/mp4' />
+          Your browser does not support the video tag.
+        </video>
 
-          <form className='flex'>
-            <div className='box'>
-              <span>City/Street</span>
-              <input type='text' placeholder='Location' />
-            </div>
-            <div className='box'>
-              <span>Property Type</span>
-              <input type='text' placeholder='Property Type' />
-            </div>
-            <div className='box'>
-              <span>Price Range</span>
-              <input type='text' placeholder='Price Range' />
-            </div>
-            <div className='box'>
-              <h4>Advance Filter</h4>
-            </div>
-            <button className='btn1'>
-              <i className='fa fa-search'></i>
-            </button>
-          </form>
+        <div className='container'>
+          <Heading
+            title='Transforming Challenges Into Opportunities With BPO'
+            subtitle='Schedule a call with us to discuss your project and get a quote in minutes...'
+          />
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
