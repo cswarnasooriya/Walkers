@@ -1,5 +1,5 @@
 .footerContact {
-  background-color: #27ae60;
+  background-color: #2093f1;
   padding: 40px 0;
   color: #fff;
 }
@@ -17,7 +17,7 @@ footer .container {
   grid-gap: 20px;
 }
 footer img {
-  width: 150px;
+  width: 200px;
 }
 footer h2 {
   font-weight: 500;
@@ -47,11 +47,11 @@ footer ul li {
 .legal {
   text-align: center;
   padding: 20px;
-  background: #1d2636;
+  background: #2b4a80;
   color: rgba(255, 255, 255, 0.5);
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   footer .container {
     grid-template-columns: repeat(2, 1fr);
   }
