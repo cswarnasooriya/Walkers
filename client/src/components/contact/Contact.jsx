@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <>
       <section className='contact mb'>
-        <Back name='Contact Us Now For More Details' title='Get Helps & Friendly Support' cover={img} />
+        <Back name='Contact Us Now For More Details' title='Get Helps & Always Touch With Us' cover={img} />
         <div className='container'>
           <form className='shadow'>
             <h4>Contact Us Easy and Fast</h4> <br />
