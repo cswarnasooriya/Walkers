@@ -344,6 +344,8 @@ export const team = [
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
 ]
+
+
 export const price = [
   {
     plan: "Basic",
@@ -425,12 +427,12 @@ export const price = [
 ]
 export const footer = [
   {
-    title: "LAYOUTS",
-    text: [{ list: "Home Page" }, { list: "About Page" }, { list: "Service Page" }, { list: "Property Page" }, { list: "Contact Page" }, { list: "Single Blog" }],
+    title: "Search Us",
+    text: [{ list: "Home" }, { list: "Service" }, { list: "Blog" }, { list: "About" }, { list: "Pricing" }, { list: "Contact Us" }],
   },
   {
-    title: "ALL SECTIONS",
-    text: [{ list: "Headers" }, { list: "Features" }, { list: "Attractive" }, { list: "Testimonials" }, { list: "Videos" }, { list: "Footers" }],
+    title: "Popular",
+    text: [{ list: "Company" }, { list: "Features" }, { list: "Inquries" }, { list: "Testimonials" }, { list: "Trending" }, { list: "FAQ" }],
   },
  
 ]
