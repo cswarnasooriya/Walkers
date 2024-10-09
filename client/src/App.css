@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 * {
   padding: 0;
@@ -27,12 +32,12 @@ ul {
 }
 button {
   border-radius: 5px;
-  padding: 17px 30px;
-  background: #78efff;
+  padding: 15px 25px;
+  background: #6254fc;
   border: none;
-  color: #280cc4;
+  color: #ffffff;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: semibold;
 }
 button i {
   margin-right: 5px;
@@ -113,14 +118,22 @@ img {
   color: #fff;
 }
 .btn5 {
-  border-radius: 50px;
-  padding: 20px 40px;
-  color: #27ae60;
-  font-size: 20px;
-  font-weight: 400;
-  border: 5px solid #27ae601f;
+  border-radius: 80px;
+  padding: 10px 20px;
+  color: #027b35;
+  font-size: 18px;
+  font-weight: 500;
+  border: 5px solid #1010101f;
   background: #fff;
 }
+
+.btn5:hover {
+  
+  color: #ffffff;
+  border: 5px solid #1010101f;
+  background: #f59003;
+}
+
 .back {
   height: 40vh;
   position: relative;
