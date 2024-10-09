@@ -321,45 +321,45 @@ export const location = [
 ]
 export const team = [
   {
-    list: "50",
+    list: "89%",
     cover: "../images/customer/team-1.jpg",
-    address: "Liverpool, Canada",
-    name: "Sargam S. Singh",
+    address: "Borella South",
+    name: "S. Kumara",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
-    list: "70",
+    list: "96%",
     cover: "../images/customer/team-2.jpg",
-    address: "Montreal, Canada",
-    name: "Harijeet M. Siller",
+    address: "Kurunegala",
+    name: "Dhammika Silva",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
-    list: "80",
+    list: "90%",
     cover: "../images/customer/team-3.jpg",
-    address: "Denever, USA",
-    name: "Anna K. Young",
+    address: "Gampaha",
+    name: "Ann S. Perera",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
-    list: "51",
+    list: "88%",
     cover: "../images/customer/team-4.jpg",
-    address: "2272 Briarwood Drive",
-    name: "Michael P. Grimaldo",
+    address: "Kandy",
+    name: "M. Chandimal",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
-    list: "42",
+    list: "98%",
     cover: "../images/customer/team-5.jpg",
-    address: "2272 Briarwood Drive",
-    name: "Michael P. Grimaldo",
+    address: "No.2, Kaduwela",
+    name: "Kumari Thilaka",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
-    list: "38",
+    list: "94%",
     cover: "../images/customer/team-5.jpg",
-    address: "Montreal, USA",
-    name: "Adam K. Jollio",
+    address: "Kollupitiya",
+    name: "Dulaj S. Kahawala",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
 ]
@@ -368,7 +368,7 @@ export const team = [
 export const price = [
   {
     plan: "Basic",
-    price: "29",
+    price: "25000",
     ptext: "per user, per month",
     list: [
       {
@@ -390,7 +390,7 @@ export const price = [
   {
     best: "Best Value",
     plan: "Standard",
-    price: "49",
+    price: "48000",
     ptext: "per user, per month",
     list: [
       {
@@ -418,8 +418,8 @@ export const price = [
   },
   {
     plan: "Platinum",
-    price: "79",
-    ptext: "2 user, per month",
+    price: "75000",
+    ptext: "4 user, per month",
     list: [
       {
         icon: <i class='fa-solid fa-check'></i>,
