@@ -9,9 +9,11 @@ const RecentCard = () => {
           const { cover, category, location, name } = val
           return (
             <div className='box shadow' key={index}>
+            <a href="/blog">
               <div className='img'>
                 <img src={cover} alt='' />
               </div>
+            </a>
               <div className='text'>
                 <div className='category flex'>
                   <span style={{ background: category === "For Sale" ? "#25b5791a" : "#ff98001a", color: category === "For Sale" ? "#25b579" : "#ff9800" }}>{category}</span>
