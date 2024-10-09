@@ -4,16 +4,16 @@ export const nav = [
     path: "/",
   },
   {
-    text: "about",
-    path: "/about",
-  },
-  {
     text: "services",
-    path: "/services",
+    path: "/blog",
   },
   {
     text: "blog",
-    path: "/blog",
+    path: "/services",
+  },
+  {
+    text: "about",
+    path: "/about",
   },
   {
     text: "pricing",
@@ -52,6 +52,144 @@ export const featured = [
   },
 ]
 export const list = [
+  
+  {
+    id: 1,
+    cover: "../images/list/bookin.jpg",
+    name: "Bookkeeping ",
+    category: "For Develop",
+    type: "Condos",
+    
+  },
+  {
+    id: 2,
+    cover: "../images/list/pay.jpg",
+    name: "Procure to Pay (P2P)",
+    category: "For Rent",
+    type: "Offices",
+  },
+  {
+    id: 3,
+    cover: "../images/list/Order.jpg",
+    name: "Order to Cash (O2C)",
+    category: "For Sale",
+    type: "Homes & Villas",
+  },
+  {
+    id: 4,
+    cover: "../images/list/Bank.jpg",
+    name: "Bank Reconciliation",
+    category: "For Rent",
+    type: "Apartment",
+    
+  },
+  {
+    id: 5,
+    cover: "../images/list/Ledger.jpg",
+    name: "General Ledger Management ",
+    category: "For Develop",
+    type: "Condos",
+    
+  },
+  {
+    id:6 ,
+    cover: "../images/list/Fixed Asset_1.jpg",
+    name: "Fixed Asset Accounting",
+    category: "For Rent",
+    type: "Offices",
+  },
+  {
+    id: 4,
+    cover: "../images/list/Reporting.jpg",
+    name: "Management Reporting",
+    category: "For Sale",
+    type: "Homes & Villas",
+  },
+  {
+    id: 1,
+    cover: "../images/list/Finance.jpg",
+    name: "Financial Analytics",
+    category: "For Rent",
+    type: "Apartment",
+    
+  },
+  {
+    id: 2,
+    cover: "../images/list/Tax Services.jpg",
+    name: "Tax Services",
+    category: "For Develop",
+    type: "Condos",
+    
+  },
+  {
+    id: 3,
+    cover: "../images/list/HR.jpg",
+    name: "HR & Payroll Services",
+    category: "For Rent",
+    type: "Offices",
+  },
+  {
+    id: 4,
+    cover: "../images/list/Business.jpg",
+    name: "Business System Support ",
+    category: "For Sale",
+    type: "Homes & Villas",
+  },
+  {
+    id: 1,
+    cover: "../images/list/Help Desk.jpg",
+    name: "IT Help Desk ",
+    category: "For Rent",
+    type: "Apartment",
+    
+  },
+  {
+    id: 2,
+    cover: "../images/list/Data.jpg",
+    name: "Data Entry  ",
+    category: "For Develop",
+    type: "Condos",
+    
+  },
+  {
+    id: 3,
+    cover: "../images/list/Digital.jpg",
+    name: "Data Entry ",
+    category: "For Rent",
+    type: "Offices",
+  },
+  {
+    id: 3,
+    cover: "../images/list/Digital.jpg",
+    name: "Data Entry ",
+    category: "For Rent",
+    type: "Offices",
+  },
+  {
+    id: 3,
+    cover: "../images/list/Digital.jpg",
+    name: "Data Entry ",
+    category: "For Rent",
+    type: "Offices",
+  },
+  {
+    id: 3,
+    cover: "../images/list/Digital.jpg",
+    name: "Data Entry ",
+    category: "For Rent",
+    type: "Offices",
+  },
+  {
+    id: 3,
+    cover: "../images/list/Digital.jpg",
+    name: "Data Entry ",
+    category: "For Rent",
+    type: "Offices",
+  },
+]
+
+export const list1 = [
+  
   {
     id: 1,
     cover: "../images/list/Finance.jpg",
@@ -59,6 +197,7 @@ export const list = [
     location: "In today’s fast-paced business environment, managing finances efficiently is crucial for success. Our Finance and Accounting BPO services provide businesses with the expertise and technology to streamline operations, enhance accuracy, and ensure compliance. Whether you're a small start-up or a large corporation, we tailor our solutions to meet your specific needs..",
     category: "For Rent",
     type: "Apartment",
+    
   },
   {
     id: 2,
@@ -67,6 +206,7 @@ export const list = [
     location: "With the help of modern tools, we study your financial information and patterns to see the strengths and weaknesses of your company’s performance and to give advice on how to overcome difficulties and make the most of the opportunities you are provided with.",
     category: "For Develop",
     type: "Condos",
+    
   },
   {
     id: 3,
@@ -84,6 +224,8 @@ export const list = [
     category: "For Sale",
     type: "Homes & Villas",
   },
+
+  
   
 ]
 export const awards = [
@@ -151,7 +293,7 @@ export const location = [
   },
   {
     id: 6,
-    name: "Project 00",
+    name: "Project",
     Villas: "12 Villas",
     Apartments: "10 Apartments",
     Offices: "07 Offices",
@@ -290,8 +432,5 @@ export const footer = [
     title: "ALL SECTIONS",
     text: [{ list: "Headers" }, { list: "Features" }, { list: "Attractive" }, { list: "Testimonials" }, { list: "Videos" }, { list: "Footers" }],
   },
-  {
-    title: "COMPANY",
-    text: [{ list: "About" }, { list: "Blog" }, { list: "Pricing" }, { list: "Affiliate" }, { list: "Login" }, { list: "Changelog" }],
-  },
+ 
 ]
