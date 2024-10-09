@@ -9,10 +9,10 @@ const Footer = () => {
         <div className='container'>
           <div className='send flex'>
             <div className='text'>
-              <h1>Do You Have Questions ?</h1>
+              <h1 >Do You Have Questions ?</h1>
               <p>We'll help you to grow your career and growth.</p>
             </div>
-            <button className='btn5'>Contact Us Today</button>
+            <button className='btn5'>Hire Us Now</button>
           </div>
         </div>
       </section>
@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className='legal'>
-        <span>© 2024 RentUP. Designd By Zmedia Digital.com.</span>
+        <span>© 2025 Walkers Developed By Zmedia Digital Solutions</span>
       </div>
     </>
   )
