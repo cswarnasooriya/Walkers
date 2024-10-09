@@ -1,11 +1,11 @@
 import React from "react"
-import { list1 } from "../../data/Data"
+import { list } from "../../data/Data"
 
 const RecentCard = () => {
   return (
     <>
       <div className='content grid3 mtop'>
-        {list1.map((val, index) => {
+        {list.map((val, index) => {
           const { cover, category, location, name, price, type } = val
           return (
             <div className='box shadow' key={index}>

@@ -1,0 +1,19 @@
+import React from "react"
+import Heading from "../../common/Heading"
+import "./recent.css"
+import RecentCardnew from "./RecentCard"
+
+const Recent = () => {
+  return (
+    <>
+      <section className='recent padding'>
+        <div className='container'>
+          <Heading title='Built From The Ground Up' subtitle='All of our services are to help your bussiness stand out.' />
+          <RecentCardnew />
+        </div>
+      </section>
+    </>
+  )
+}
+
+export default Recent

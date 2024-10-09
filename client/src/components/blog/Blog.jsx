@@ -1,16 +1,16 @@
 import React from "react"
 import Back from "../common/Back"
-import RecentCard from "../home/recent/RecentCard"
+import RecentCardnew from "../home/recent/RecentCardNew"
 import "../home/recent/recent.css"
-import img from "../images/about.jpg"
+import img from "../images/services_A.jpg"
 
 const Blog = () => {
   return (
     <>
       <section className='blog-out mb'>
-        <Back name='Blog' title='Blog Grid - Our Blogs' cover={img} />
+        <Back name='Services' title='Our Services' cover={img} />
         <div className='container recent'>
-          <RecentCard />
+          <RecentCardnew />
         </div>
       </section>
     </>
