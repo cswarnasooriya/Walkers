@@ -1,12 +1,22 @@
 .contact form div {
   display: flex;
   flex-direction: column;
+  
+}
+
+.contact form div input{
+  border: 3px solid rgba(244, 9, 9, 0.1);
+  border-radius: 15px;
+  margin-bottom: 18px;
+  padding: 10px;
+  
+  
 }
 .contact textarea {
-  border: 2px solid rgba(244, 9, 9, 0.1);
+  border: 3px solid rgba(244, 9, 9, 0.1);
   width: 100%;
-  border-radius: 12px;
-  margin-bottom: 25px;
+  border-radius: 20px;
+  margin-bottom: 35px;
 }
 .contact input {
   margin-bottom: 20px;
@@ -15,6 +25,12 @@
 .contact form {
   padding: 30px;
 }
+
+.contact form h4 {
+  font-size: 24px;
+}
+
+
 @media screen and (max-width: 768px) {
   .contact h4 {
     width: 100%;
