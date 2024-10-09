@@ -1,35 +1,47 @@
 .footerContact {
-  background-color: #2093f1;
-  padding: 40px 0;
+  background-color: #316dfa;
+  padding: 30px 0;
   color: #fff;
 }
+
 .footerContact h1 {
-  font-size: 40px;
+  font-size: 45px;
+  color: black;
+  font-weight: semibold;
+
 }
+.footerContact p{
+  font-size: 18px;
+  color: antiquewhite;
+
+}
+
+
 footer {
-  background-color: #1d2636;
+  background-color: #041129;
   padding: 50px 0;
   color: #fff;
 }
+
 footer .container {
   display: grid;
-  grid-template-columns: 6fr 2fr 2fr 1fr;
-  grid-gap: 20px;
+  grid-template-columns: 8fr 3fr 3fr;
+  grid-gap: 60px;
 }
 footer img {
-  width: 200px;
+  width:250px;
 }
 footer h2 {
   font-weight: 500;
 }
 footer p {
   color: grey;
-  margin: 20px 0;
+  margin: 30px 0;
 }
 footer input {
-  background-color: #fff;
-  padding: 17px;
-  width: 100%;
+  background-color: #ffffff;
+  padding: 15px;
+  width: 600px;
   border-radius: 5px;
 }
 footer h3 {
@@ -46,11 +58,15 @@ footer ul li {
 }
 .legal {
   text-align: center;
-  padding: 20px;
-  background: #2b4a80;
+  padding: 10px;
+  background: #0b121e;
   color: rgba(255, 255, 255, 0.5);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 3px solid rgba(255, 255, 255, 0.1);
 }
+
+
+
+
 @media screen and (max-width: 700px) {
   footer .container {
     grid-template-columns: repeat(2, 1fr);
