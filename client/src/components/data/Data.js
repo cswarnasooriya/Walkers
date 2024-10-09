@@ -250,22 +250,22 @@ export const list1 = [
 export const awards = [
   {
     icon: <i class='fa-solid fa-trophy'></i>,
-    num: "32 M	",
+    num: "10+	",
     name: "Blue Burmin Award",
   },
   {
     icon: <i class='fa-solid fa-briefcase'></i>,
-    num: "43 M",
+    num: "15+",
     name: "Mimo X11 Award",
   },
   {
     icon: <i class='fa-solid fa-lightbulb'></i>,
-    num: "51 M",
+    num: "22+",
     name: "Australian UGC Award",
   },
   {
     icon: <i class='fa-solid fa-heart'></i>,
-    num: "42 M",
+    num: "5+",
     name: "IITCA Green Award",
   },
 ]

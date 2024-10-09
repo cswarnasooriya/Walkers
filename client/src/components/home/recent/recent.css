@@ -1,19 +1,21 @@
 .recent .text {
-  padding: 30px;
+  padding: 20px;
+
 }
 .recent .category span {
   padding: 4px 15px;
-  border-radius: 2px;
+  border-radius: 5px;
   font-weight: 600;
   font-size: 13px;
   display: inline-block;
 }
 .recent .category i {
   font-size: 20px;
-  color: #26ecdb;
+  color: #75e2d9;
 }
 .recent p {
-  color: #72809d;
+  color: #676767;
+  text-align: justify;
 }
 .recent .button {
   border-top: 1px solid #3a67e4;
